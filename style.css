@@ -1,0 +1,148 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #F7F7F7;
+    /* Old browsers */
+    background: -moz-linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
+  }
+  
+  /** Header styles **/
+  .header {
+    background-image: url(https://lh3.googleusercontent.com/ulLevP9EtSIw3b3U7rlYkJTP9tcVHQMjpJWevrmE_sVbVWcBllkIJFrjUGPVuwXGavePGb_s-YrZnt08S2jBuuqM_riiypG0Ewfaevj3dL7XKBZdnqZoDBlhFcyfybKmd-5h1IhPjBRQqSE7m7Zm8hm8wK023E8GYMSEuh8c6Qfd3o9OVsoFxcyuSLPoqFgq0EX2KfT-WXMjmaTWymdfYAtlF4GsreujYmH6PaS1vh0Vbl_O_iBtXz7_xp5t4EM4BRVXK91f4A3fXgsw_h4odoTUDat1s6Nb3DPULZrGUaCqEizd40C4zJhXbVANN4Dm0rUOmQpX80oZPkzTL9-buT6rkGgN1QMr305Ky9dEGXMHFZjSSwwZCYVDwDtfDJE6BrOA_EgRnSoo89Dj6dO0mmall9dc17NhjmVR44Upr484suFeXCdFrXet1Y5VV92LugfUIkVJz0DI8T8dBGCY-2QqJgwz53dNy7QrnDPelGUKDek-rkFryeqHv0JZeH51Q5eAzOPKij4TWCYdoO-Vm2hIaBmCHl_CB3_l8NCKixYxdFQfGms9s4bVt2nXKwhd8LU-DRVx6AkaZH_ZRPYqc78t2rJXZgKurolFnzJjsI6HzZVy8FABI0Z5kmYy_Db8-ZwB4y-akUXURXWPQgvKFXzysdtekBwV37cMJa5uVnubrjZF0vubA0wo=w771-h679-no);
+    height: 650px;
+    background-position: center center;
+  }
+  
+  .roasting {
+    margin: 40px auto;
+    padding: 20px 30px 40px 30px;
+    background-color: #F7F7F7;
+    overflow: auto;
+    width: 75%;
+    border-radius: 4px;
+    align-self: center;
+  }
+  
+  .roasting p {
+    color: #938E89;
+    text-align: center;
+    line-height: 24px;
+    font-family: 'Petit Formal Script', cursive;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  .spectrum div {
+    font: inherit;
+    padding: 0 20px;
+    color: #FFFFFF;
+    overflow: auto;
+    opacity: 0.9;
+  }
+  
+  .spectrum p {
+    color: #FFFFFF;
+    text-align: left;
+  }
+  
+  /* Roast types */
+  .green {
+    background-color: #EB6896;
+  }
+  
+  .light {
+    background-color: #C36894;
+  }
+  
+  .city {
+    background-color: #836B91;
+  }
+  
+  .vienna {
+    background-color: #46698D;
+  }
+  
+  .italian {
+    background-color: #0F6A8B;
+  }
+  
+  /* Typography */
+  h1 {
+    color: #EB6896;
+    font-family: 'Alex Brush', cursive;
+    font-size: 100px;
+    line-height: 76px;
+    margin: 0;
+    position: relative;
+    text-align: center;
+    top: 70%;
+  }
+  
+  h2 {
+    color: #836890;
+    font-family: 'Alex Brush', cursive;
+    font-size: 28px;
+    font-weight: 500;
+    text-align: left;
+    text-transform: lowercase;
+  }
+  
+  h3 {
+    color: #EB6896;
+    font-family: 'Alex Brush', cursive;
+    font-size: 28px;
+    font-weight: 550;
+    text-align: center;
+  }
+  
+  h4 {
+    font-family: 'Alex Brush', cursive;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: .2em;
+  }
+  
+  h5 {
+    font-family: 'Alex Brush', cursive;
+    font-size: 25px;
+    line-height: .2em;
+    font-weight: 10;
+  }
+  
+  /* Page elements */
+  ul {
+    margin: 0 auto;
+    padding: 0;
+    width: 75%;
+  }
+  
+  li {
+    border-bottom: 1px solid #46698D;
+    list-style: none;
+    margin: 100px 0px;
+    padding-bottom: 60px;
+  }
+
+p {
+    color: #0F6A8B;
+    line-height: 32px;
+    font-family: 'Petit Formal Script', cursive;
+    font-size: 20px;
+    font-weight: 100;
+}
+  
+  a {
+    color: #0F6A8B;
+    font-family: 'Alex Brush', cursive;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    text-transform: lowercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+  }
+  
